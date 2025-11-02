@@ -21,9 +21,9 @@ class User(AbstractUser):
         verbose_name='user permissions'
     )
     ROLE_CHOICES=[
-        ('ADMIN','admin'),
-        ('LEARNER','learner'),
-        ('TRAINER','trainer'),
+        ('ADMIN','Admin'),
+        ('LEARNER','Learner'),
+        ('TRAINER','Trainer'),
     ]
 
     role= models.CharField(max_length=20,choices=ROLE_CHOICES,default='LEARNER')

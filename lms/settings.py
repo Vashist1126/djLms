@@ -48,6 +48,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# REST_FRAMEWORK ={
+#     'DEFAULT_AUTHENTICATION_CLASSES':(
+#         'rest_framework_simplejwt.authenticationo.JWTAuthentication',
+#     ),
+# }
+
 ROOT_URLCONF = 'lms.urls'
 
 TEMPLATES = [
